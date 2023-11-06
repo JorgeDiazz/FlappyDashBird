@@ -1,19 +1,34 @@
-# my_flame_project
+# Flappy Dash Bird with Flutter and the Flame Engine.
 
-A new Flutter project.
+Welcome to the Flappy Dash Bird project built with Flutter Flame. This is a video game that mimics the classic Flappy Bird gameplay. In this game, you control a bird by pressing spacebar key or tapping the screen to make it fly and navigate through a series of pipes.
 
-## Getting Started
+<img src="/docs/demo.gif" alt="Demo" width="300">
 
-This project is a starting point for a Flutter application.
+## How to Run the Game
 
-A few resources to get you started if this is your first Flutter project:
+### Prerequisites
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Before you start, make sure you have the following prerequisites installed:
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-# FlappyDashBird
-# FlappyDashBird
-# FlappyDashBird
+- [Flutter 3.13.9](https://flutter.dev/)
+
+### Clone the Repository
+
+```bash
+git clone https://github.com/JorgeDiazz/FlappyDashBird.git
+cd FlappyDashBird
+```
+
+### Run the Game
+1. Connect your mobile device to your computer or launch a virtual emulator.
+2. Open a terminal and navigate to the project directory.
+3. Ensure your device is recognized by Flutter:
+```bash
+flutter devices
+```
+4. Run the game on your device (replace your-device with the name of your device as shown in the previous step):
+```bash
+flutter run -d your-device
+```
+5. Enjoy the game, and happy flapping! 😄
+
