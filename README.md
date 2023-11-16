@@ -22,13 +22,17 @@ cd FlappyDashBird
 ### Run the Game
 1. Connect your mobile device to your computer or launch a virtual emulator.
 2. Open a terminal and navigate to the project directory.
-3. Ensure your device is recognized by Flutter:
+3. Run the following command to download all required dependencies:
+ ```bash
+flutter pub get
+```  
+4. Ensure your device is recognized by Flutter:
 ```bash
 flutter devices
 ```
-4. Run the game on your device (replace your-device with the name of your device as shown in the previous step):
+5. Run the game on your device (replace your-device with the name of your device as shown in the previous step):
 ```bash
 flutter run -d your-device
 ```
-5. Enjoy the game, and happy flapping! 😄
+6. Enjoy the game, and happy flapping! 😄
 
